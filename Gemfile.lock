@@ -107,3 +107,4 @@ DEPENDENCIES
   sass-rails (~> 3.2.5)
   uglifier (>= 1.2.3)
   pg
+  rails_12factor
