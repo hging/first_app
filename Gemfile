@@ -8,8 +8,9 @@ gem 'rails', '3.2.13'
 
 group :production do
   # gems specifically for Heroku go here
-  gem "pg"
-  gem "activerecord-sqlite3-adapter"
+  gem 'pg'
+  gem 'activerecord-sqlite3-adapter'
+  gem 'thin'
 end
 
 group :development do
