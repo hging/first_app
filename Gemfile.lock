@@ -110,3 +110,4 @@ DEPENDENCIES
   uglifier (>= 1.2.3)
   activerecord-sqlite3-adapter
   pg
+  thin
