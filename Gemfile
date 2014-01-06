@@ -9,12 +9,12 @@ gem 'rails', '3.2.13'
 group :production do
 #   # gems specifically for Heroku go here
  	gem 'pg'
-	gem 'activerecord-sqlite3-adapter'
+	# gem 'activerecord-sqlite3-adapter'
 #   gem 'thin'
 end
 
 group :development do
-gem 'sqlite3', '1.3.5'
+  gem 'sqlite3', '1.3.5'
 end
 
 # Gems used only for assets and not required
